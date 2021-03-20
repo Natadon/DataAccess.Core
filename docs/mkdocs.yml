@@ -1,0 +1,17 @@
+site_name: Natadon DataAccess.Core
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+
+theme:
+  name: 'material'
+  pallette:
+    primary: Blue
+  feature:
+    tabs: false
+
