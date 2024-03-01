@@ -1,19 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Kyle Parrish</Authors>
     <Company>Natadon Technologies</Company>
     <PackageId>Natadon.DataAccess.Core</PackageId>
-    <Copyright>2021</Copyright>
+    <Copyright>2024</Copyright>
     <Description>This is the core library for the Natadon data access libraries.  It contains the base interface as well as any generic classes used among all the data access libraries.</Description>
     <PackageTags>DataAccess</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/Natadon/DataAccess.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Natadon/DataAccess.Core</RepositoryUrl>
 
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
