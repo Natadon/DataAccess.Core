@@ -14,12 +14,18 @@
     <RepositoryUrl>https://github.com/Natadon/DataAccess.Core</RepositoryUrl>
 
     <Version>1.0.2</Version>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
